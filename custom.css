@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
+
+.navigation { background: #3c3c3c; }
+
+.main-menu a { 
+	color: #fff; 
+	font-size: 18px;
+	font-weight:600;
+}
+
+.header-search .search-button {
+	background: #3c3c3c; }
+
+#.main-menu .page_item_has_children > a:after {
+	border-top-color: #ffffff;
+}
+
+html { 
+	font-size: 18px; 
+}
+
+.blog-description {
+	font-family: Montserrat, Georgia, sans-serif;
+}
+
+.header .section-inner { 
+	width: 319px; 
+}
+
+.post-inner {
+	width: 700px;
+max-width: 80%;
+}
+
+.abh_name {
+	font-family: Montserrat, Georgia, sans-serif;
+	text-transform: uppercase;
+}
+
+.tags a { margin-right: 5px; }
+.tags a { font-size: 16px;
+text-transform: lowercase;}
+.tags a:before { content: "#"; }
+.categories a { font-size: 16px; }
+.categories {font-size: 16px; }
+
+.post .header { padding: 35px 0; }
+
+.homeicon { padding-left: 10px;
+	padding-right: 10px; background-color: #60a14c; }
+
+.main-menu .homeicon a { 
+	color: #fff; 
+	font-size: 18px;
+	font-weight:900;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap');
+
+.credits p + p {
+	color: #fff;
+	font-size: 0.9em;
+	font-weight: 600;
+	margin-top: 12px;
+}
+
+.credits p + p a { 
+	color: #fff;
+}
+
+.page-id-30 .section-inner {
+	width: 1280px; }
+.page-id-30 .post-inner {
+	width: 1280px;
+}
+
+.post-inner p,
+.post-inner li { font-family: Open Sans, Montserrat; 
+	font-weight: 400;
+}
