@@ -90,3 +90,13 @@ text-transform: lowercase;}
 .post-inner li { font-family: Open Sans, Montserrat; 
 	font-weight: 400;
 }
+
+.cn-button.bootstrap {
+    color: #fff;
+    background: 
+#437234;
+}
+
+#cookie-notice {
+	font-family: Open Sans, Arial, Montserrat, Georgia, sans-serif;
+}
