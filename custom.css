@@ -32,9 +32,21 @@ html {
 max-width: 80%;
 }
 
+.abh_tab_content .abh_image{
+	margin-top: 0px!important;
+}
 .abh_name {
+	padding-top: px;
 	font-family: Montserrat, Georgia, sans-serif;
 	text-transform: uppercase;
+}
+.abh_job {
+	font-size: 28px;
+	font-family: Montserrat, Georgia, sans-serif;
+}
+.abh_description {
+	margin-top: ;
+	font-family: Open Sans, Montserrat, Georgia, sans-serif;
 }
 
 .tags a { margin-right: 5px; }
