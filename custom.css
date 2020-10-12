@@ -100,3 +100,7 @@ text-transform: lowercase;}
 #cookie-notice {
 	font-family: Open Sans, Arial, Montserrat, Georgia, sans-serif;
 }
+
+.header-search .search-button {
+    color:#ffffff;
+}
