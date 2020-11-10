@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap');
 
-.navigation { background: #232121; }
+.navigation { background: #3c3c3c; }
 
 .main-menu a { 
 	color: #fff; 
@@ -9,7 +9,7 @@
 }
 
 .header-search .search-button {
-	background: #232121; }
+	background: #3c3c3c; }
 
 #.main-menu .page_item_has_children > a:after {
 	border-top-color: #ffffff;
