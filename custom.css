@@ -50,11 +50,23 @@ max-width: 80%;
 }
 
 .tags a { margin-right: 5px; }
-.tags a { font-size: 16px;
+.tags a { font-size: 20px;
 text-transform: lowercase;}
-.tags a:before { content: "#"; }
 .categories a { font-size: 16px; }
 .categories {font-size: 16px; }
+
+.tags a:hover {
+	text-decoration: none; 
+}
+.tags a:before { content: none; }
+.tags a { background-color: #f2f6fc;
+font-size: 16px;
+border-radius: 4px; 
+box-sizing: border-box; 
+border: 1px solid #60a14c;
+padding: 0 10px;
+color: #000;
+}
 
 .post .header { padding: 35px 0; }
 
@@ -109,15 +121,53 @@ text-transform: lowercase;}
 	background: linear-gradient(to bottom, rgba(29,29,29,0.2) 0%, rgba(29,29,29,0.5) 45%, rgba(29,29,29,1) 100%);
 }
 
-
-.tags a:hover {
-	text-decoration: none; 
+.show-preview-titles .has-post-thumbnail .post-overlay {
+	background: rgba( 0, 0, 0, 0.1 );
 }
-.tags a:before { content: none; }
-.tags a { background-color: #f2f6fc;
-font-size: 16px;
-border-radius: 4px; 
-box-sizing: border-box; 
-border: 1px solid #6a6f76;
-padding: 0 10px;
+.archive-post-date {
+	background-color: #f8f8f8;
+	padding-top: 5px;
+	padding-left: 17px;
+	padding-right: 10px
+	padding-bottom: 10px;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: -10px;
+	text-transform: none;
+	border-top: 3px solid #60a14c;
+	#border-left: 4px solid #60a14c;
+	#border-right: 4px solid #60a14c;
+	#border-top: 4px solid #60a14c;
+}
+
+.archive-post-title {
+	color: #222;
+	background-color: #f8f8f8;
+	padding: 10px 10px;
+	padding-left: 15px;
+	#border-left: 4px solid #60a14c;
+	#border-right: 4px solid #60a14c;
+	#border-bottom: 4px solid #60a14c;
+	margin-bottom: -30px;
+	margin-left: -15px;
+	margin-right: -15px;
+	#border-top: 1px solid 
+#363636;
+	font-weight: 600;
+	
+}
+
+.archive-post-header {
+	position: absolute;
+	right: 15px;
+	left: 15px;
+}
+
+.has-post-thumbnail .archive-post-date {
+	color: #3c3c3c;
+}
+
+.post.has-post-thumbnail:hover .archive-post-title,
+.show-preview-titles .post.has-post-thumbnail .archive-post-title { 
+	color: #000; 
 }
