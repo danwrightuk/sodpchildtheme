@@ -24,7 +24,7 @@ html {
 }
 
 .header .section-inner { 
-	width: 319px; 
+	width: 319x;
 }
 
 .post-inner {
@@ -49,9 +49,13 @@ max-width: 80%;
 	font-family: Open Sans, Montserrat, Georgia, sans-serif;
 }
 
-.tags a { margin-right: 5px; }
+.categories a, p {
+	color: #000;	
+}
+.tags a { margin-right: 5px;
+margin-top: 20px;}
 .tags a { font-size: 20px;
-text-transform: lowercase;}
+text-transform: uppercase;}
 .categories a { font-size: 16px; }
 .categories {font-size: 16px; }
 
@@ -98,6 +102,12 @@ color: #000;
 	width: 1280px;
 }
 
+.page-id-126 .section-inner {
+	width: 1400px; }
+.page-id-126 .post-inner {
+	width: 1400px;
+}
+
 .post-inner p,
 .post-inner li { font-family: Open Sans, Montserrat; 
 	font-weight: 400;
@@ -127,7 +137,7 @@ color: #000;
 .archive-post-date {
 	background-color: #f8f8f8;
 	padding-top: 5px;
-	padding-left: 17px;
+	padding-left: 12px;
 	padding-right: 10px
 	padding-bottom: 10px;
 	margin-left: -15px;
@@ -144,7 +154,8 @@ color: #000;
 	color: #222;
 	background-color: #f8f8f8;
 	padding: 10px 10px;
-	padding-left: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 	#border-left: 4px solid #60a14c;
 	#border-right: 4px solid #60a14c;
 	#border-bottom: 4px solid #60a14c;
@@ -154,7 +165,6 @@ color: #000;
 	#border-top: 1px solid 
 #363636;
 	font-weight: 600;
-	
 }
 
 .archive-post-header {
@@ -170,4 +180,17 @@ color: #000;
 .post.has-post-thumbnail:hover .archive-post-title,
 .show-preview-titles .post.has-post-thumbnail .archive-post-title { 
 	color: #000; 
+}
+
+.nhsuk-coronavirus-banner {
+	margin: auto;
+}
+
+.main-menu a {
+ text-transform: none;
+}
+
+.archive-title-prefix {
+	color: #ffffff;
+	font-size: 20px;
 }
