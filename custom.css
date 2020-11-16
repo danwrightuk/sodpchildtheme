@@ -97,8 +97,14 @@ color: #000;
 }
 
 .page-id-30 .section-inner {
-	width: 1280px; }
+	width: 1400px; }
 .page-id-30 .post-inner {
+	width: 1400px;
+}
+
+.page-id-560 .section-inner {
+	width: 1280px; }
+.page-id-560 .post-inner {
 	width: 1280px;
 }
 
@@ -193,4 +199,72 @@ color: #000;
 .archive-title-prefix {
 	color: #ffffff;
 	font-size: 20px;
+}
+
+.topic-button {
+	background-color: #fff;
+	border: none;
+	border-radius: 8px;
+	color: #000;
+	font-family: 'Montserrat', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1;
+	margin: 0;
+	padding: 60px 20px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	text-transform: uppercase;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.topic-button-background {
+	min-height: 250px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	border-radius: 4px;
+	border: 1px solid #cccccc;
+	box-shadow: 0 2px 20px 0 rgba(0,0,0,.2); 
+}
+
+.topic-button-link {
+	text-decoration: none;
+	color: #000;
+}
+
+.topic-button-link h4:hover {
+	text-decoration: underline;
+}
+
+.topic-button-body {
+	padding: 25px 25px 0px 25px;
+}
+
+.topic-image {
+	color: #60a14c;
+	font-size: 120px;
+	text-align: center;
+	margin-bottom: -30px;
+}
+
+.topic-title h4 {
+	color: #000;
+	text-transform: none;
+}
+
+.button a {
+	text-decoration: none;
+}
+.button a:hover {
+	text-decoration: none;
+	color: #000;
+}
+
+.main-menu > li + li {
+	margin-left: 60px;
+}
+
+.header-search form:hover .search-field,
+.header-search .search-field:focus {
+	border-bottom: 1px solid #ffffff;
 }
