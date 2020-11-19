@@ -96,21 +96,45 @@ color: #000;
 	color: #fff;
 }
 
+/* Data Catalogue */
 .page-id-30 .section-inner {
 	width: 1400px; }
 .page-id-30 .post-inner {
 	width: 1400px;
 }
 
+/* Topics */
 .page-id-560 .section-inner {
 	width: 1280px; }
 .page-id-560 .post-inner {
 	width: 1280px;
 }
 
+/* COVID-19 */
 .page-id-126 .section-inner {
 	width: 1400px; }
 .page-id-126 .post-inner {
+	width: 1400px;
+}
+
+/* Transport */
+.page-id-596 .section-inner {
+	width: 1400px; }
+.page-id-596 .post-inner {
+	width: 1400px;
+}
+
+/* Democracy */
+.page-id-652 .section-inner {
+	width: 1400px; }
+.page-id-652 .post-inner {
+	width: 1400px;
+}
+
+/* Health */
+.page-id-668 .section-inner {
+	width: 1400px; }
+.page-id-668 .post-inner {
 	width: 1400px;
 }
 
@@ -254,9 +278,6 @@ color: #000;
 
 .button a {
 	text-decoration: none;
-}
-.button a:hover {
-	text-decoration: none;
 	color: #000;
 }
 
@@ -267,4 +288,49 @@ color: #000;
 .header-search form:hover .search-field,
 .header-search .search-field:focus {
 	border-bottom: 1px solid #ffffff;
+}
+
+.topic-page-icon {
+color: #60a14c;
+	font-size: 120px;
+	text-align: center;
+	margin-bottom: -35px ;
+}
+
+.topic-page-text {
+	text-align: center;
+}
+.social-menu a[href*="/transport/"]::before { content: '\f207'; font-family: "Font Awesome 5 Free";
+font-weight: 900;}
+.social-menu a[href*="/covid-19-tracking/"]::before { content: '\e074'; font-family: "Font Awesome 5 Free";
+font-weight: 900;}
+.social-menu a[href*="/democracy/"]::before { content: '\f772'; font-family: "Font Awesome 5 Free";
+font-weight: 900;}
+
+.social-menu a {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 99px;
+    color: #000;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+.social-menu li a::before {
+	font-size: 35px;
+	top: 38%;
+}
+
+.social-menu li {
+    display: block;
+    line-height: 1;
+    position: relative;
+    margin: 16px 17px 0px 17px;
+}
+
+.page-id-4 h2 {
+	margin-top: 20px;
+}
 }
