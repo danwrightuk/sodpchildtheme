@@ -332,5 +332,19 @@ font-weight: 900;}
 
 .page-id-4 h2 {
 	margin-top: 20px;
+	line-height: 1.1;
 }
+.page-id-4 a {
+	text-decoration: none;
+}
+.page-id-4 a:hover {
+	color: #589345;
+}
+
+code {
+	background: none;
+}
+
+.post-header {
+	width: 80%
 }
