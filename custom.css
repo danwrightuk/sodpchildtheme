@@ -346,5 +346,11 @@ code {
 }
 
 .post-header {
-	width: 80%
+	width: 80%;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.featured-media {
+	padding-top: 40px;
 }
