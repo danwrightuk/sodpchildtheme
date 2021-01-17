@@ -207,6 +207,10 @@ color: #000;
 	color: #3c3c3c;
 }
 
+.archive-post-date {
+	color: #3c3c3c;
+}
+
 .post.has-post-thumbnail:hover .archive-post-title,
 .show-preview-titles .post.has-post-thumbnail .archive-post-title { 
 	color: #000; 
@@ -353,4 +357,73 @@ code {
 
 .featured-media {
 	padding-top: 40px;
+}
+
+.headersearchwrap {
+	background-color: #eeeeee;
+	position: relative;
+	z-index: 1;
+	height: 170px;
+}
+
+.headersearch {
+	z-index: 2;
+	width: 600px;
+	max-width: 80%;
+	padding: 30px 0px;
+	height: 100px;
+	position: relative;
+	margin: auto;
+}
+
+.headersearch h1 {
+	font-size: 1.4em;
+	padding: 0 0 15px 2px;
+	margin: auto;
+	text-transform: none;
+}
+
+.headersearch .search-button {
+	border: none !important;
+    color: #757575;
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    top: 1px;
+    text-align: center;
+    width: 60px;
+}
+
+.headersearch input {
+	border-color: #000;
+}
+.credits a {
+	text-transform: capitalize;
+}
+
+.archive-post-title {
+	text-transform: capitalize;
+	font-size: 1.25em;
+}
+
+.post-overlay {
+	border: 2px #000 solid;
+}
+
+.posts {
+	margin-top: 20px;
+}
+
+.header-image, .header-image:after {
+	height: 560px;
+}
+
+.latestposts {
+	color: #ffffff;
+	font-size: 1.4em;
+	padding: 0 0 0 2px;
+	margin-bottom: -5px;
+	
 }
